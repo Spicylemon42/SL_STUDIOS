@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>BehindTheScenes</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="css/lightbox.css" rel="stylesheet" />
+	<link rel="icon" type="image/x-icon" href="SKOMDLOGO.png">
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('SKOMDLOGO.png')">
+	<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="Page2.html">New Game</a>
+  <a href="index.html">About</a>
+  <a href="HelpPage.html">Help</a>
+  <a href="Extras.html">Extra</a>
+</div>
+
+<!-- Use any element to open the sidenav -->
+<span onclick="openNav()" class="hamburger"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image120099','','SKOMDLOGO.png',1)"><img src="SmallLogo.png" alt="" width="195" height="195" id="Image120099"></a></span>
+<div class="box6"><li><a href="Page2.html">New Game</a></li>
+		<li><a href="index.html">About</a></li>
+		<li><a href="HelpPage.html">Help</a></li>
+		<li><a href="Extras.html">Extra</a></li>	</div>
+
+<div class="box7"><img src="ROOMPICS/MEMEME.jpg" width="1060" height="820" alt=""/></div>
+	<div class="box5"><p>Click the fish for a treat.</p></div>
+	
+	
+<div class="extras"><a href="ROOMPICS/BRANDING2.jpg" data-lightbox="roadtrip" data-title=" "><img src="Foodicon.png" width="1707" height="2597" alt=""/></a>
+	<a href="ROOMPICS/BRANDING3.jpg" data-lightbox="roadtrip" data-title=" "><img src="Foodicon.png" width="1707" height="2597" alt=""/></a>
+	<a href="ROOMPICS/BRANDING4.jpg" data-lightbox="roadtrip" data-title=" "><img src="Foodicon.png" width="1707" height="2597" alt=""/></a>
+	<a href="ROOMPICS/BRANDING5.png" data-lightbox="roadtrip" data-title=" "><img src="Foodicon.png" width="1924" height="1190" alt=""/></a>
+	<a href="ROOMPICS/BRANDINGA.png" data-lightbox="roadtrip" data-title=" "><img src="Foodicon.png" width="1924" height="1190" alt=""/></a>
+	<a href="ROOMPICS/BRANDINGB.png" data-lightbox="roadtrip" data-title=" "><img src="Foodicon.png" width="1924" height="1190" alt=""/></a>
+	<a href="ROOMPICS/BRANDINGC.png" data-lightbox="roadtrip" data-title=" "><img src="Foodicon.png" width="1924" height="1190" alt=""/></a>
+  <a href="ROOMPICS/BRANDING6.jpg" data-lightbox="roadtrip" data-title=" "><img src="Foodicon.png" width="1924" height="1190" alt=""/></a>
+	<a href="ROOMPICS/BRANDING1.jpg" data-lightbox="roadtrip" data-title=" "><img src="Foodicon.png" width="1924" height="1190" alt=""/></a>
+</div>
+<div class="box10"><br><br>
+</div>
+<div class="box4">
+	<p>Danielhardy42@gmail.com<br><br>
+	dh2356@msstate.edu<br><br>
+	@thisisdanielhardy<br><br>
+	copyright&copy;DanielHardy</p>
+	<img src="SmallLogo.png" width="195" height="195" alt=""/> </div>
+<script src="js/lightbox-plus-jquery.js"></script>
+		<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</body>
+</html>

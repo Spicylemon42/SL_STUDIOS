@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="icon" type="image/x-icon" href="SKOMDLOGO.png">
+<meta charset="UTF-8">
+<title>Page3</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="css/lightbox.css" rel="stylesheet" />
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('investigateiconrollover.png','dooricon2rollover.png','SKOMDLOGO.png')">
+	<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="Page2.html">New Game</a>
+  <a href="index.html">About</a>
+  <a href="HelpPage.html">Help</a>
+  <a href="Extras.html">Extra</a>
+</div>
+
+<!-- Use any element to open the sidenav -->
+<span onclick="openNav()" class="hamburger"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image63456','','SKOMDLOGO.png',1)"><img src="SmallLogo.png" alt="" width="195" height="195" id="Image63456"></a></span>
+<div class="box6"><li><a href="Page2.html">New Game</a></li>
+		<li><a href="index.html">About</a></li>
+		<li><a href="HelpPage.html">Help</a></li>
+		<li><a href="Extras.html">Extra</a></li>	</div>
+<div class="box5"><p> You ignore the knock. Someone must have the wrong address. <span class="knocking">The knocking continues.</span></p></div>
+<div class="box7"><img src="ROOMPICS/ROOMPIC2.jpg" width="4032" height="3024" alt=""/></div>
+<div class="curio3"><a href="ROOMPICS/CURIO2.jpg" data-lightbox="roadtrip" data-title="Maybe I can see who is outside."><img src="CURIOICON.png" width="321" height="325" alt=""/></a></div>
+<div class="box8">What Should I Do?</div>
+<div class="box9"><a href="Page6.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','investigateiconrollover.png',1)"><img src="Investigateicon.png" alt="" width="321" height="325" id="Image5"></a><p><a href="Page6.html">Investigate</a></p>
+	<a href="Page5.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('1','','dooricon2rollover.png',1)"><img src="dooricon2.png" alt="" width="321" height="325" id="1"></a><p><a href="Page5.html">Answer</a></p></div>
+<div class="box10"><p><a href="Page6.html">Investigate</a></p>
+	<p><a href="Page5.html">Answer</a></p>
+	
+	
+</div>
+	<div class="box4">
+	<p>Danielhardy42@gmail.com<br><br>
+	dh2356@msstate.edu<br><br>
+	@thisisdanielhardy<br><br>
+	copyright&copy;DanielHardy</p>
+	<img src="SmallLogo.png" width="195" height="195" alt=""/> </div>
+	<script src="js/lightbox-plus-jquery.js"></script>	
+	<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</body>
+</html>
